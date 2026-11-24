@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>📚 Sistema de Notas</h1>
+        <p>Registro de notas de 5 estudiantes</p>
+
+        <form id="formulario">
+
+            <div class="campo">
+                <label>Estudiante 1</label>
+                <input type="number" id="nota1" min="0" max="5" step="0.1" placeholder="Ingrese la nota" required>
+            </div>
+
+            <div class="campo">
+                <label>Estudiante 2</label>
+                <input type="number" id="nota2" min="0" max="5" step="0.1" placeholder="Ingrese la nota" required>
+            </div>
+
+            <div class="campo">
+                <label>Estudiante 3</label>
+                <input type="number" id="nota3" min="0" max="5" step="0.1" placeholder="Ingrese la nota" required>
+            </div>
+
+            <div class="campo">
+                <label>Estudiante 4</label>
+                <input type="number" id="nota4" min="0" max="5" step="0.1" placeholder="Ingrese la nota" required>
+            </div>
+
+            <div class="campo">
+                <label>Estudiante 5</label>
+                <input type="number" id="nota5" min="0" max="5" step="0.1" placeholder="Ingrese la nota" required>
+            </div>
+
+            <button type="submit">Calcular resultados</button>
+
+        </form>
+
+        <div id="resultados"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf0f8;
+    padding: 30px;
+}
+
+.contenedor {
+    max-width: 550px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2457a7;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2457a7;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #2457a7;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #173d79;
+}
+
+#resultados {
+    margin-top: 25px;
+}
+
+.resultado {
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background: #f1f4f9;
+}
+
+.aprobado {
+    color: green;
+    font-weight: bold;
+}
+
+.reprobado {
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
